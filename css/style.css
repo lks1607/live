@@ -108,6 +108,30 @@ footer{
     display: none;
 }
 
+#popup{
+    /* display: none; */
+    width: 442px;
+    height: 444px;
+    background:url("../images/popup.png")no-repeat;  
+    position: absolute;
+    bottom: 50px;
+    right: 14px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    border-radius: 20px;
+}
+
+#popup .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+
+/* 모바일 화면 */
+
 @media screen and (max-width:720px){
     .pc-menu{
         display: none;

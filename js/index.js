@@ -5,3 +5,7 @@ function openNav(){
 function closeNav(){
     document.getElementById("myNav").style.width = "0%";
 }
+
+function closePopup(){
+    document.getElementById("popup").style.display = "none";
+}
