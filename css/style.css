@@ -100,7 +100,7 @@ footer{
 
 .chat-btn .btn{
     position: absolute;
-    bottom: -10px;
+    bottom: 5px;
     right: -5px;
 }
 
@@ -109,7 +109,7 @@ footer{
 }
 
 #popup{
-    /* display: none; */
+    display: none;
     width: 442px;
     height: 444px;
     background:url("../images/popup.png")no-repeat;  
