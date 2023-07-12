@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이경섭 - LiveSite</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="mainlogomenu">
+                <h1>
+                    <a href="#">
+                        <img src="./images/LIVE-LOGO.svg" alt="live 로고 이미지">
+                    </a>
+                </h1>
+                <nav class="pc-menu">
+                    <ul>
+                        <li>
+                            <a href="#">회사소개</a></li>
+                        <li>
+                            <a href="#">레퍼런스</a></li>
+                        <li>
+                            <a href="#">스튜디오</a></li>
+                        <li>
+                            <a href="#">Q&amp;A</a></li>
+                        <li>
+                            <a href="#">문의사항</a></li>
+                    </ul>
+                </nav>
+
+                <!-- 모바일 메뉴 -->
+                <nav class="mobile-menu toggle">
+                    <span onclick="openNav()">
+                        <a href="#">
+                            <!-- &#9776; -->
+                            <img src="./images/toggle.svg" alt="토글 메뉴키">
+                        </a>
+                    </span>
+
+                    <div id="myNav" class="overlay">
+                        <!-- x 버튼 -->
+                        <a href="#" class="closeBtn" onclick="closeNav()">
+                            &times;
+                        </a>
+
+                        <div class="overlay-content">
+                            <ul>
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">레피런스</a></li>
+                                <li><a href="#">스튜디오</a></li>
+                                <li><a href="#">Q&A</a></li>
+                                <li><a href="#">문의사항</a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="Live">
+                <!-- <div class="main-title">
+                    <p>세상에 모든 라이브 커머스</p>
+                    <h1>LIVE.</h1>
+                </div>
+                <img src="./images/Mic.png"> -->
+                <div class="Live-img">
+                    <img src="./images/maintitle.png" alt="세상에 모든 라이브 커머스 LIVE">
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="chat-btn">
+                <a href="#" class="btn">
+                    <img src="./images/round.svg" alt="chat-icon">
+                </a>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
