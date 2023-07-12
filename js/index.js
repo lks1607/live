@@ -6,10 +6,10 @@ function closeNav(){
     document.getElementById("myNav").style.width = "0%";
 }
 
-function closePopup(){
-    document.getElementById("popup").style.display = "none";
-}
-
 function openPopup(){
     document.getElementById("popup").style.display = "block";
+}
+
+function closePopup(){
+    document.getElementById("popup").style.display = "none";
 }
